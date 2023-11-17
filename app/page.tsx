@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className="flex   items-center justify-end p-6">
       <UserButton afterSignOutUrl="/sign-in" />
+      <p> Home page </p>
     </main>
   );
 }
